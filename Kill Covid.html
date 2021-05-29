@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kill Covid</title>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script type="text/javascript">
+      alert("Welcome To Kill Covid Zone!!");
+      
+      function shrink(){
+        Corona.width = Corona.width-10;
+        Corona.height = Corona.height-10;
+      }
+      function shrink1(){
+        Corona1.width = Corona1.width-10;
+        Corona1.height = Corona1.height-10;
+      }
+      function kill(){
+        mytext.innerHTML = "Kill Covid!!"
+        alert("Touch The Pictures And See What Happens Next!!");
+      }
+    </script>
+  </head>
+
+  <body>
+
+    <section id="section1">
+      <div id="corona">
+        <h4 align="center">Covid-19</h4>
+        <img id="Corona" src="Corona.jpg" width="500" height="500" onclick="shrink()">
+      </div>
+      <div id="corona1">
+        <h4 align="center">Corona Virus</h4>
+        <img id="Corona1" src="Corona 1.jpg" width="500" height="500" onclick="shrink1()">
+      </div>
+    </section>
+    <div>
+      <h3 id="know1">Know More About Covid!!</h3>
+      <a href="ThankYou.html" id="link3" style=
+     "font-size: 1em;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      color: darkred;
+      position: absolute;
+      left: 49%;
+      top: 15%;
+      transform: translateX(-50%) translateY(-50%);">Click Here</a>
+    </div>
+
+    <div>
+        <input type="button" value="Click Here!" id="killbtn" onclick="kill()">
+        <font id="mytext"></font>
+    </div>
+
+  </body>
+</html>
